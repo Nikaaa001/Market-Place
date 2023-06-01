@@ -1,0 +1,334 @@
+body {
+    background-image: url(../imgs/animakid-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-y: 100px;
+}
+
+.animakid-main-cont {
+    max-width: 1050px;
+    width: 100%;
+    margin: 350px auto 0 auto;
+}
+
+.animakid-prof-main-cont {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.animakid-cont1 {
+    width: 510px;
+    height: 377px;
+}
+
+.animakid-title {
+    width: 510px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+}
+
+.animakid-statics {
+    max-width: 510px;
+    width: 100%;
+    height: 74px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.animakid-static {
+    width: 156.67px;
+    height: 74px;
+}
+
+.animakid-static-num {
+    color: #FFFFFF;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.animakid-static-name {
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.bio {
+    margin-top: 30px;
+    color: #858584;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.bio-text {
+    margin-top: 10px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.animakid-socials {
+    width: 200px;
+    height: 32px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.animakid-follow-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 351px;
+    height: 60px;
+}
+
+.animakid-idk-btn {
+    width: 186px;
+    height: 60px;
+    display: flex;
+    background: #A259FF;
+    border-radius: 20px;
+    transition-duration: .3s;
+}
+
+.animakid-idk-btn:hover {
+    width: 182px;
+    height: 56px;
+    margin-top: 2px;
+}
+
+.animakid-follow-btn {
+    width: 145px;
+    height: 56px;
+    display: flex;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    transition-duration: .3s;
+}
+
+.animakid-follow-btn:hover {
+    width: 140px;
+    height: 53px;
+    margin-top: 1px;
+}
+
+.follow-plus {
+    margin: 20px 0 0 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.follow-value {
+    margin: 19px 0 0 12px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.copy {
+    width: 20px;
+    height: 20px;
+    margin: 20px 0 0 20px;
+}
+
+.idk-btn-value {
+    margin: 19px 0 0 12px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.animakid-line {
+    margin-top: 40px;
+    border: 1px solid #3B3B3B;
+    width: 100vw;
+}
+
+.animakid-menu {
+    width: 1050px;
+    height: 60px;
+    display: flex;
+    margin: 10px auto 0 auto;
+}
+
+.animakid-menu-items {
+    width: 350px;
+    height: 60px;
+    display: flex;
+}
+
+.animakid-menu-items1 {
+    border-bottom: 2px solid #858584;
+    display: flex;
+    width: 350px;
+    height: 60px;
+}
+
+.animakid-menu-title {
+    margin: 15px 0 auto 99px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.created-num-cont {
+    width: 50px;
+    height: 32px;
+    background: #858584;
+    border-radius: 20px;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+
+.created-num {
+    color: #FFFFFF;
+    padding: 5px 10px;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.animakid-menu-title1 {
+    margin-top: 15px;
+    margin-left: 109px;
+    color: #858584;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.created-num-cont1 {
+    margin-left: 16px;
+    margin-top: 14px;
+    width: 40px;
+    height: 32px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.animakid-menu-title2 {
+    margin-top: 15px;
+    margin-left: 97px;
+    color: #858584;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.created-num-cont2 {
+    margin-left: 16px;
+    margin-top: 14px;
+    width: 30px;
+    height: 32px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.animakid-cards-main-cont {
+    background: #3B3B3B;
+    border: 1px solid #3B3B3B;
+    width: 100vw;
+    height: 1627px;
+}
+
+.animakid-cards {
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.more-nfts-animakid {
+    width: 330px;
+    height: 469px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    transition-duration: .5s;
+}
+
+.more-nfts-animakid:hover {
+    width: 325px;
+    height: 460px;
+}
+
+.more-nfts-img {
+    transition-duration: .5s;
+}
+
+.more-nfts-animakid:hover .more-nfts-img {
+    width: 325px;
+}
+
+.animakid-card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-nfts-cont-animakid {
+    max-width: 1050px;
+    width: 100%;
+    height: 469px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-nfts-cont-animakid1 {
+    max-width: 1050px;
+    width: 100%;
+    height: 469px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-page-bg-cont-animakid {
+    position: absolute;
+    width: 100vw;
+    height: 334px;
+    background: #3B3B3B;
+    border-top: 2px solid #2B2B2B;
+    z-index: -99;
+}

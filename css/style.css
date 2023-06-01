@@ -840,12 +840,114 @@ body {
 }
 
 .background-img {
+    object-fit: cover;
+    width: 100%;
+    height: 640px;
+    z-index: -99;
     position: absolute;
-    width: 99vw;
-    left: 0;
-    margin-top: 80px;
 }
 
+.bg-mushroom-cont {
+    border: 2px solid red;
+    position: absolute;
+    width: 99vw;
+    height: 640px;
+    left: 0;
+    margin-top: 80px;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+}
+
+.bg-mushroom-main-cont {
+    width: 1050px;
+    height: 220px;
+    margin: 360px auto 0 auto;
+    display: flex;
+    border: 2px solid greenyellow;
+}
+
+.bg-mushroom-title-cont {
+    width: 755px;
+    height: 220px;
+}
+
+.bg-mushroom-shroomie {
+    width: 151px;
+    height: 44px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+}
+
+.bg-mushroom-shroomie-img {
+    margin: 10px 0 0 20px;
+    width: 24px;
+    height: 24px;
+    transition-duration: .3s;
+}
+
+.bg-mushroom-shroomie-img:hover {
+    width: 22px;
+    height: 22px;
+    margin-top: 11px;
+}
+
+.bg-shroomie-title {
+    margin: 11px 0 0 12px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.bg-shroomie-title1 {
+    margin-top: 30px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+}
+
+.see-nft-btn {
+    width: 198px;
+    height: 60px;
+    display: flex;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.see-nft-btn:hover {
+    width: 195px;
+    height: 58px;
+    margin-top: 31px;
+    margin-left: 1px;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    margin: 20px 0 0 50px;
+}
+
+.see-nft {
+    margin: 19px 0 0 12px;
+    color: #2B2B2B;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.see-nft-link {
+    text-decoration: none;
+}
 
 /*---------------------------- How It Works ---------------------------- */
 
