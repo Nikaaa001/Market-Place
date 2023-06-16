@@ -848,7 +848,6 @@ body {
 }
 
 .bg-mushroom-cont {
-    border: 2px solid red;
     position: absolute;
     width: 99vw;
     height: 640px;
@@ -862,11 +861,10 @@ body {
     height: 220px;
     margin: 360px auto 0 auto;
     display: flex;
-    border: 2px solid greenyellow;
 }
 
 .bg-mushroom-title-cont {
-    width: 755px;
+    width: 500px;
     height: 220px;
 }
 
@@ -921,6 +919,7 @@ body {
     background: #FFFFFF;
     border-radius: 20px;
 }
+
 .see-nft-btn:hover {
     width: 195px;
     height: 58px;
@@ -949,10 +948,61 @@ body {
     text-decoration: none;
 }
 
+.countdown-cont {
+    width: 295px;
+    height: 135px;
+    margin: 85px 0 0 auto;
+    background: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.auction {
+    margin: 30px 0 10px 30px;
+    color: #FFFFFF;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+#demo {
+    margin-left: 30px;
+    color: #FFFFFF;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: xx-large;
+    line-height: 45.6px;
+    letter-spacing: 0.00px;
+    white-space: nowrap;
+}
+
+.hms {
+    height: 20px;
+    width: 240px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrs {
+    color: #FFFFFF;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+}
+
 /*---------------------------- How It Works ---------------------------- */
 
 #how-it-works-cont {
-    margin-top: 1000px;
+    margin-top: 800px;
 }
 
 .how-it-works-title {

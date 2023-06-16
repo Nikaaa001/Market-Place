@@ -1,0 +1,113 @@
+.orbitian-cover {
+    background-size: cover;
+}
+
+.cover-cont {
+    position: relative;
+    width: 100vw;
+    height: 560px;
+
+    background-image: url(../imgs/orbitian-cover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orbitians-main-cont {
+    display: flex;
+    width: 1050px;
+    height: 1159px;
+    margin: 40px auto 0 auto;
+    border: 2px solid red;
+}
+
+.orbitian-texts-cont {
+    width: 605px;
+    height: 1159px;
+    border: 1px solid greenyellow;
+}
+
+.orbitian-title {
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+}
+
+.minted {
+    margin-top: 10px;
+    color: #858584;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.orbitian-by {
+    margin-top: 30px;
+    color: #858584;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.orbitian-mini-prof {
+    display: flex;
+    height: 31px;
+    margin-top: 10px;
+}
+
+.orb-prof-name {
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.description {
+    margin-top: 30px;
+    color: #858584;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.orbitian-bigtext {
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    letter-spacing: 0.00px;
+    align-self: stretch;
+}
+
+.globe-cont {
+    display: flex;
+}
+
+.orbitian-globe-title {
+    margin-left: 10px;
+    color: #FFFFFF;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+}
